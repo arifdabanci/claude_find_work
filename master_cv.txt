@@ -1,0 +1,48 @@
+ARIF TUNA DABANCI
+Trabzon, Turkey | +90 542 599 89 43 | arifdabanci377@gmail.com
+LinkedIn: linkedin.com/in/arif-tuna-dabanci-55553229b | GitHub: github.com/arifdabanci
+
+PROFESSIONAL SUMMARY
+Analytical Engineering Student and AI/ML Specialist with hands-on experience in Deep Learning, Python-based automation, and LLM Evaluation. Proven track record in developing computer vision models for Teknofest competitions. Expert in RLHF (Reinforcement Learning from Human Feedback), data annotation, and quality assurance for large-scale AI datasets. Applying First Principles thinking and Antifragility models to solve complex technical challenges. Actively seeking remote roles as an AI Trainer, Code Review Specialist, or LLM Quality Analyst.
+
+CORE COMPETENCIES
+- AI & Machine Learning: LLM Evaluation, RLHF, Prompt Engineering, PyTorch, Computer Vision (Object Detection), Dataset Curation
+- Technical Tools: Python (Intermediate), yfinance (Financial Modeling), GitHub Actions (CI/CD), FL Studio (Digital Signal Processing)
+- Engineering & Analytics: Metallurgy and Materials Engineering, Thermodynamics, Quantitative Analysis, Statistical Process Control
+- Languages: Turkish (Native), English (Professional Working Proficiency / B2)
+
+TECHNICAL PROJECTS
+
+Financial Data Automation System | Python & GitHub Actions
+- Developed an automated fundamental analysis system using Python and yfinance to monitor market trends
+- Implemented GitHub Actions for cloud deployment, ensuring 24/7 automated data tracking and risk modeling
+
+AI in Aviation: Computer Vision Model | Teknofest 2025
+- Architected an end-to-end deep learning pipeline using PyTorch for aerial vehicle detection
+- Optimized model performance through iterative testing and precision/recall analysis, achieving high accuracy under strict competition deadlines
+
+AI in Healthcare: Stroke Detection Model | Teknofest 2024
+- Trained a supervised classification model for medical imaging using clinical datasets
+- Applied Feature Engineering and bias mitigation techniques to enhance diagnostic reliability and model safety
+
+WORK EXPERIENCE
+
+AI Data Quality Analyst & Fact-Checker | Remote
+Crowdgen & OneForma | 01/2024 – Present
+- Evaluated AI-generated outputs for accuracy, instruction-following, and safety compliance for top-tier LLM training projects
+- Performed large-scale Audio Data Labeling and transcription, contributing to speech recognition model optimization
+- Consistently maintained high-throughput and strict quality benchmarks in an asynchronous remote environment
+
+E-commerce Founder & Operations Manager
+Blacksea Thread (Etsy) | 01/2026 – Present
+- Managing an international export business focusing on traditional handicrafts
+- Overseeing supply chain logistics, digital marketing, and operational risk management
+
+EDUCATION
+B.Sc. in Metallurgy and Materials Engineering
+Karadeniz Technical University (KTU), Trabzon | 2022 – Present
+- Focus on thermodynamics, material properties, and analytical methods building foundations for data-driven problem-solving
+
+PERSONAL ACHIEVEMENTS
+- Latin Dance (Salsa & Bachata): Committed practitioner focusing on pattern recognition, coordination, and high-level interpersonal communication
+- Electronic Music Production: Active producer using FL Studio, applying iterative refinement and technical precision to audio engineering
