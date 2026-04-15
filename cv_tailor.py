@@ -1,4 +1,4 @@
-import anthropic
+import google.generativeai as genai
 import os
 import re
 from reportlab.lib.pagesizes import A4
@@ -12,10 +12,11 @@ MASTER_CV = open(os.path.join(os.path.dirname(__file__), "master_cv.txt"), encod
 
 def cv_olustur(ilan_metni: str, ilan_basligi: str = "pozisyon") -> str:
     """
-    İlan metnini alır, Claude API ile CV'yi özelleştirir,
+    İlan metnini alır, Gemini API ile CV'yi özelleştirir,
     PDF kaydeder ve dosya yolunu döner.
     """
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel("gemini-2.0-flash")
 
     prompt = f"""Sen profesyonel bir teknik işe alım uzmanısın ve CV optimizasyon konusunda uzmansın.
 
@@ -41,13 +42,8 @@ MASTER CV:
 {MASTER_CV}
 """
 
-    message = client.messages.create(
-        model="claude-opus-4-5",
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}]
-    )
-
-    cv_metni = message.content[0].text
+    response = model.generate_content(prompt)
+    cv_metni = response.text
     pdf_yolu = pdf_olustur(cv_metni, ilan_basligi)
     return pdf_yolu
 
